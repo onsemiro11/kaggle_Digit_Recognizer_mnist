@@ -62,15 +62,10 @@ data augmentation에서 회전한 데이터의 value들을 확인해보면, 실�
 : make_pipeline을 활용해서 최대한 test셋을 건들지 않고 분석을 진행하였다.
 
 <SVM (Support Vector Machine)>
-
 <RandomForestClassifier>
- 
 <KNeighborsClassifier>
- 
 <GaussianNB> : 나이브 베이즈 분류는 확실히 일반화 성능이 낮다.
- 
 <GradientBoostingClassifier>
- 
 <MLPClassifier>
  
 --> 나이브 베이즈에서 가우디안과 그래디언트 부스터, MLP를 써보았지만 SVM보단 낮은 성능을 보임.
